@@ -1,0 +1,50 @@
+body{
+	box-sizing: border-box;
+	background-color: #f2f2f2;
+}
+.icon-bar{
+	margin: 0;
+	padding-left: 0px;
+	display: inline-block;
+	width: 100%;
+	background-color:  #483D8B;
+	overflow: auto;
+
+	margin: 30px;
+	max-width: 1400px;
+
+}
+.icon-bar a{
+
+	float: left;
+	width: 15%;
+	text-align: center;
+	padding: 12px 0;
+	transition: all 1s ease;
+	color: white;
+	font-size: 28px;
+	margin: 5px;
+
+}
+.icon-bar a:hover{
+	background-color: #000;
+}
+.active{
+	background-color: #4CAF50;
+}
+/*--*/
+.table{
+	background-color: rgb(0, 245, 196);;
+}
+.table img{
+	background-color: hsl(180, 48%, 51%);
+	border-radius: 5px;
+} 
+h1{
+	text-align: center;
+}
+iframe{
+	margin-left: 300px;
+	
+}
+
