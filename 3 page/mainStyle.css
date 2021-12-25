@@ -1,3 +1,4 @@
+
 body{
 	box-sizing: border-box;
 	background-color: #f2f2f2;
@@ -33,7 +34,7 @@ body{
 	background-color: #4CAF50;
 }
 
-/*----*/
+/*
 .contaner{
 	display: flex;
 	justify-content: space-around;
@@ -60,10 +61,17 @@ body{
 	padding: 0;
 	margin-left: 180px;
 
-}
+}*/
 textarea{
 	width: 80%;
 	height: 150px;
 	margin: 1em 10em 1em 10em;
 	
+	
 }
+@media only screen and(max-width: 360px){
+	body{
+		background-color: red;
+	}
+}
+

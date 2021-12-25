@@ -149,9 +149,7 @@ img {vertical-align: middle;}
 }
 
 /* На небольших экранах уменьшите размер текста */
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
-}
+
 /*---*/
 //---//
 .main {
@@ -189,4 +187,6 @@ img {vertical-align: middle;}
 	border-radius: 5px;
 	border-color: green;
 	background-color: white;
+}
+
 }
